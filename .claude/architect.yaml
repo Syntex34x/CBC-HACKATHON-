@@ -1,8 +1,17 @@
-
 name: architect
-role: system_designer
+role: system_architect
+
+input:
+  - feature_map
+  - tech_stack
+
 output:
-  frontend
-  backend
-  database
-  api_design
+  - layered_architecture
+  - folder_structure
+  - database_schema
+  - api_contracts
+
+logic:
+  - apply modular design
+  - ensure scalability
+  - define services separation
