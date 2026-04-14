@@ -1,0 +1,9 @@
+mcp_tools:
+  - filesystem
+  - github
+  - browser
+
+usage:
+  filesystem: manage project files
+  github: push generated code
+  browser: fetch documentation
