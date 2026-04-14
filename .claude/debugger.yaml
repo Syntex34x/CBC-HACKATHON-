@@ -1,0 +1,13 @@
+name: debugger
+role: error_resolver
+
+input:
+  - issues_list
+
+output:
+  - fixed_code
+
+logic:
+  - identify root cause
+  - regenerate faulty modules
+  - optimize broken logic
