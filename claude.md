@@ -1,42 +1,57 @@
-
 # Autonomous Multi-Agent Application Generator
 
-## Overview
-This system is a fully autonomous agentic pipeline that transforms a single high-level prompt into a complete production-ready application.
-
-It operates as a coordinated multi-agent system where each agent has a specialized role and collaborates through structured workflows, feedback loops, and dynamic adaptation.
+## Objective
+Create a fully autonomous system that generates complete applications from a single prompt.
 
 ---
 
-## Core Capabilities
-- Single prompt → full application generation
-- Dynamic task decomposition
-- Multi-agent collaboration
-- Feedback-driven improvement
+## Execution Pipeline
+
+1. Orchestrator receives prompt
+2. Planner extracts requirements
+3. Architect designs system
+4. Developer generates application
+5. Reviewer validates output
+6. Debugger fixes issues
+7. Final system assembled
+
+---
+
+## Core Principles
+
+- Zero hardcoded outputs
+- Full agent autonomy
+- Strict role separation
+- Iterative improvement loop
+- Self-healing system (debugger)
+
+---
+
+## Advanced Features
+
 - Dynamic agent creation
 - MCP tool integration
+- Retry and validation loops
+- Modular architecture generation
 
 ---
 
-## Execution Flow
-User Prompt → Orchestrator → Planner → Dynamic Agent Creation → Architect → Developer → Reviewer → Loop Controller → Final Output
+## Example Execution
+
+Input:
+"Build a scalable e-commerce platform"
+
+Output:
+- Full frontend
+- Backend APIs
+- Database schema
+- Production-ready architecture
 
 ---
 
-## Intelligence Layer
-- Adaptive planning
-- Multi-round reasoning
-- No hardcoded outputs
+## Guarantee
 
----
-
-## MCP Tools
-- filesystem
-- github
-- browser
-- code_executor
-
----
-
-## Example Prompt
-Build a scalable AI SaaS platform with authentication, dashboard, and ML features.
+This system ensures:
+- End-to-end automation
+- Clean modular code
+- Error-free output via debugging loop
