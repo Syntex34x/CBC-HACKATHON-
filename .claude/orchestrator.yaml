@@ -1,10 +1,23 @@
-
 name: orchestrator
-role: master_controller
+role: central_intelligence
+
+input: user_prompt
+
 workflow:
   - planner
-  - dynamic_agent_creator
   - architect
   - developer
   - reviewer
-  - loop_controller
+  - debugger
+  - finalize
+
+control_logic:
+  - validate_each_step: true
+  - retry_on_failure: true
+  - max_retries: 3
+  - adaptive_flow: true
+
+rules:
+  - enforce_agent_roles
+  - prevent_hardcoding
+  - ensure_full_autonomy
