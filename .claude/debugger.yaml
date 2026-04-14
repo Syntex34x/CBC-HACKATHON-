@@ -2,12 +2,13 @@ name: debugger
 role: error_resolver
 
 input:
-  - issues_list
+  - issues
 
 output:
-  - fixed_code
+  - fixes
+  - corrected_code
 
 logic:
   - identify root cause
   - regenerate faulty modules
-  - optimize broken logic
+  - ensure bug-free output
