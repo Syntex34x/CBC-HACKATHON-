@@ -1,9 +1,16 @@
-
 name: planner
-role: task_decomposer
-output_format:
-  tasks:
-    - id
-    - description
-    - priority
-    - dependencies
+role: requirement_engine
+
+input: user_prompt
+
+output:
+  - problem_breakdown
+  - feature_map
+  - tech_stack
+  - constraints
+
+logic:
+  - extract intent
+  - classify app type
+  - define modules
+  - map dependencies
