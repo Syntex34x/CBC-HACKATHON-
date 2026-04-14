@@ -1,5 +1,0 @@
-
-name: loop_controller
-role: iteration_manager
-logic:
-  max_iterations: 5
