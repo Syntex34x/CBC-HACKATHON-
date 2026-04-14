@@ -1,8 +1,16 @@
-
 name: developer
-role: code_generator
-features:
-  - frontend_generation
-  - backend_generation
-  - api_creation
-  - database_setup
+role: autonomous_builder
+
+input:
+  - architecture
+
+output:
+  - frontend_code
+  - backend_code
+  - api_code
+  - database_code
+
+logic:
+  - generate module by module
+  - follow architecture strictly
+  - maintain clean code
