@@ -1,6 +1,21 @@
-
 name: dynamic_agent_creator
-role: creates new agents dynamically
+role: adaptive_intelligence
+
+input:
+  - task_type
+
 logic:
-  if task_type == "ml": create ml_agent
-  if task_type == "ui": create ui_agent
+  if task_type == "ml":
+    create:
+      name: ml_agent
+      role: model_builder
+
+  if task_type == "ui":
+    create:
+      name: ui_agent
+      role: ui_designer
+
+  if task_type == "security":
+    create:
+      name: security_agent
+      role: vulnerability_checker
