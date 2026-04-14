@@ -1,0 +1,6 @@
+
+name: reviewer
+role: quality_checker
+loop:
+  - send_feedback_to: planner
+  - retry_until: quality_score > 0.9

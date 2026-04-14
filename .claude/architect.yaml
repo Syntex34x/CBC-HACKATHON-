@@ -1,0 +1,8 @@
+
+name: architect
+role: system_designer
+output:
+  frontend
+  backend
+  database
+  api_design

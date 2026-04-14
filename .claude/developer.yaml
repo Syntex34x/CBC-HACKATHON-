@@ -1,0 +1,8 @@
+
+name: developer
+role: code_generator
+features:
+  - frontend_generation
+  - backend_generation
+  - api_creation
+  - database_setup

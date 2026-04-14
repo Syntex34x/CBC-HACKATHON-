@@ -1,0 +1,9 @@
+
+name: planner
+role: task_decomposer
+output_format:
+  tasks:
+    - id
+    - description
+    - priority
+    - dependencies

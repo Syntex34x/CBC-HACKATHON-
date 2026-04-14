@@ -1,0 +1,6 @@
+
+name: dynamic_agent_creator
+role: creates new agents dynamically
+logic:
+  if task_type == "ml": create ml_agent
+  if task_type == "ui": create ui_agent

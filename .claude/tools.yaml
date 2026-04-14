@@ -1,0 +1,6 @@
+
+tools:
+  - filesystem
+  - github
+  - browser
+  - code_executor

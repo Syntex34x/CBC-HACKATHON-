@@ -1,0 +1,10 @@
+
+name: orchestrator
+role: master_controller
+workflow:
+  - planner
+  - dynamic_agent_creator
+  - architect
+  - developer
+  - reviewer
+  - loop_controller
