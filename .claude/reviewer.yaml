@@ -1,6 +1,15 @@
-
 name: reviewer
-role: quality_checker
-loop:
-  - send_feedback_to: planner
-  - retry_until: quality_score > 0.9
+role: validation_engine
+
+input:
+  - generated_code
+
+output:
+  - issues
+  - improvements
+  - validated_code
+
+logic:
+  - check syntax & logic
+  - verify API contracts
+  - optimize structure
